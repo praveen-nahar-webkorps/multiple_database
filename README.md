@@ -28,9 +28,10 @@ Things you may want to cover:
 
 
 
+Command to change the database:-
+rails new mongo_project -d mysql
 
-
-
+follow link :-  https://www.mongodb.com/docs/mongoid/7.1/tutorials/getting-started-rails/
 
 
 
@@ -55,6 +56,8 @@ bash
 Copy code
 cd my_project_name
 Configure Database: Open the config/database.yml file in your Rails project directory. You'll see configurations for different environments (development, test, production). Update the configurations for the MySQL database according to your MySQL setup. Here's an example configuration:
+
+or run:- rails g mongoid:config
 
 yaml
 Copy code
